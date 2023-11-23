@@ -22,16 +22,16 @@ export default function Navbar() {
 
       <div>
         <ul className='lg:flex hidden gap-10'>
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Features</li></a>
-          <a href="#"><li>Pricing</li></a>
-          <a href="#"><li>Testimonials</li></a>
-          <a href="#"><li>Help</li></a>
+          <a href="#" className='hover:text-red-400 ease-in duration-200'><li>About</li></a>
+          <a href="#" className='hover:text-red-400 ease-in duration-200'><li>Features</li></a>
+          <a href="#" className='hover:text-red-400 ease-in duration-200'><li>Pricing</li></a>
+          <a href="#" className='hover:text-red-400 ease-in duration-200'><li>Testimonials</li></a>
+          <a href="#" className='hover:text-red-400 ease-in duration-200'><li>Help</li></a>
         </ul>
       </div>
 
       <div className='lg:flex hidden gap-10 justify-center items-center'>
-        <a href="#" className='font-bold'>Sign In</a>
+        <a href="#" className='font-bold hover:text-red-400 ease-in duration-200'>Sign In</a>
         <Button text={'Sign Up'} textStyle={'font-bold text-red-400'}/>
       </div>
     </header>
