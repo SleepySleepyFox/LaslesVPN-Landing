@@ -28,22 +28,22 @@ export default function About() {
                     <p>No specific time limits.</p>
                 </div>
             </div>
-            <div className='flex lg:hidden gap-5'>
-                    <div className='bg-gray-100 p-10 rounded-md flex flex-col flex-grow-0 '>
-                        <p>Powerfull online protection.</p>
-                        <img className='h-12' src="/images/bx-bxs-check-circle.svg" alt="" />
+            <div className='flex justify-evenly lg:hidden gap-2 w-screen px-2'>
+                    <div className='bg-gray-100 rounded-md flex flex-col w-44 h-44 px-4 pt-7 pb-7 justify-between'>
+                        <p className=''>Powerfull online protection.</p>
+                        <img className='h-12 flex-grow-0 place-items-end' src="/images/bx-bxs-check-circle.svg" alt="" />
                     </div>  
-                    <div className='bg-gray-100 p-10 rounded-md flex flex-col flex-grow-0 '>
-                        <p>Powerfull online protection.</p>
-                        <img className='h-12' src="/images/bx-bxs-check-circle.svg" alt="" />
+                    <div className='bg-gray-100 rounded-md flex flex-col w-44 h-44 px-4 pt-7 pb-7 justify-between'>
+                        <p>Internet without borders.</p>
+                        <img className='h-12 flex-grow-0 place-items-end' src="/images/bx-bxs-check-circle.svg" alt="" />
                     </div> 
-                    <div className='bg-gray-100 p-10 rounded-md flex flex-col flex-grow-0 '>
-                        <p>Powerfull online protection.</p>
-                        <img className='h-12' src="/images/bx-bxs-check-circle.svg" alt="" />
+                    <div className='bg-gray-100 rounded-md flex flex-col w-44 h-44 px-4 pt-7 pb-7 justify-between'>
+                        <p>Supercharged VPN</p>
+                        <img className='h-12 flex-grow-0 place-items-end' src="/images/bx-bxs-check-circle.svg" alt="" />
                     </div> 
-                    <div className='bg-gray-100 p-10 rounded-md flex flex-col flex-grow-0 '>
-                        <p>Powerfull online protection.</p>
-                        <img className='h-12' src="/images/bx-bxs-check-circle.svg" alt="" />
+                    <div className='bg-gray-100 rounded-md flex flex-col w-44 h-44 px-4 pt-7 pb-7 justify-between'>
+                        <p>No specific time limits.</p>
+                        <img className='h-12 flex-grow-0 place-items-end' src="/images/bx-bxs-check-circle.svg" alt="" />
                     </div> 
                     
                 </div>
