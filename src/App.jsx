@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Marketing from "./components/Marketing"
 import Navbar from "./components/Navbar"
 import Plans from "./components/Plans"
+import Reviews from "./components/Reviews"
 import Sidebar from "./components/Sidebar"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Plans/>
       <Marketing/>
+      <Reviews/>
     </>
   )
 }
