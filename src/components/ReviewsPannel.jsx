@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 export default function ReviewsPannel({img, location, name, comment, score}) {
 
   const stars = score.map(e => (
-    <img src='/public/images/ant-design-star-filled.svg' alt=''></img>
+    <img src='/images/ant-design-star-filled.svg' alt=''></img>
   ))
 
   return (
